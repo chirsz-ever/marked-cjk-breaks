@@ -1,0 +1,4 @@
+package-ignore.json
+/src
+/test
+/tsconfig.json

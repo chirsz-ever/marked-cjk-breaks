@@ -1,0 +1,35 @@
+{
+  "name": "marked-cjk-breaks",
+  "version": "0.1.0",
+  "description": "Marked plugin to suppress linebreaks between east asian characters",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prepare": "tsc --declaration",
+    "test": "tsx --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirsz-ever/marked-cjk-breaks.git"
+  },
+  "keywords": [
+    "marked",
+    "marked-plugin",
+    "extesion"
+  ],
+  "author": "chirsz-ever chirsz-ever#outlook.com",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/chirsz-ever/marked-cjk-breaks/issues"
+  },
+  "homepage": "https://github.com/chirsz-ever/marked-cjk-breaks#readme",
+  "dependencies": {
+    "easta": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "marked": "^15.0.7",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
